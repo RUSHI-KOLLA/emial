@@ -64,9 +64,13 @@ This script will:
 - Display accuracy metrics and classification report
 - Test sample emails with predictions
 
-**Note**: Update the CSV path in `code.py` (line 9) to match your system:
+**Important**: The code.py file has a hardcoded Windows path on line 9. Update it to match your system:
 ```python
-df = pd.read_csv('noisy_emails.csv')  # Use relative path or update as needed
+# Current (Windows-specific):
+df = pd.read_csv(r'C:\\dev\\ml\\Email_Classifier\\noisy_emails.csv')
+
+# Recommended change (relative path):
+df = pd.read_csv('noisy_emails.csv')
 ```
 
 ### Option 2: Full Application (Backend + Frontend)
