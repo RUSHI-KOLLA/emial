@@ -178,13 +178,8 @@ Make sure `noisy_emails.csv` is in the same directory as your Python scripts.
 ### Model Training Error
 Ensure all dependencies are installed and the CSV file has the correct format (subject, body, category columns).
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-
+## 🤝 Final Result
+dive link : https://drive.google.com/file/d/1aBsVzXoxAJszp90loKwzQjc0mL9puwC4/view?usp=drive_link
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
